@@ -1,0 +1,121 @@
+
+
+/* Center align everything */
+body {
+    background: linear-gradient(to right, #190019,#1a91b5 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+#nomelist {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    
+/* Add some basic styling */
+
+
+#search-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* Style for the name list container */
+#name-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.238);
+    border-radius: 20px;
+    width:1600px;
+    overflow-y: scroll;
+}
+
+/* Style for each name item */
+.name-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    
+}
+
+/* Style for the input fields */
+.name-input {
+    margin-left: 10px;
+    border-radius: 25px;
+    height: 25px;
+}
+.save-button {
+             
+    
+    margin: 10%;
+    text-align: center;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 32px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    outline: none;
+    background-image: linear-gradient(to right, #daff0b, #af4513, #ffe600, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+      }
+
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      
+     
+}
+#search-name { 
+    border-radius: 25px;
+    height: 25px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#search-car {
+    border-radius: 25px;
+    height: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 250px;
+}
+.quantity-input {
+
+    margin-left: 10px;
+    border-radius: 25px;
+    height: 25px;
+    width: 40px;
+}
+.date-input{
+    margin-left: 10px;
+    border-radius: 25px;
+    height: 25px;
+}
