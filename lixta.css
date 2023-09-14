@@ -119,3 +119,38 @@ body {
     border-radius: 25px;
     height: 25px;
 }
+@media only screen and (max-width:400px){
+    body {
+        visibility: visible;
+    }
+    .date-input {
+        visibility: visible;
+    }
+    .quantity-input {
+        visibility: visible;
+    }
+    #search-car {
+        visibility: visible;
+    }
+    #search-name{
+        visibility: visible;
+    }
+    .btn-grad:hover{
+        visibility: visible;
+    }
+    .save-button{
+        visibility: visible;
+    }
+    .name-item {
+        visibility: visible;
+    }
+    #name-list {
+        visibility: visible;
+    }
+    #search-container {
+        visibility: visible;
+    }
+    #nomelist {
+        visibility: visible;
+    }
+}
