@@ -119,7 +119,7 @@ body {
     border-radius: 25px;
     height: 25px;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:3000px ){
     body {
         visibility: visible;
     }
@@ -153,4 +153,4 @@ body {
     #nomelist {
         visibility: visible;
     }
-}
+} 
